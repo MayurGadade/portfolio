@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/fiber": "9.0.0-alpha.8",
     "@svgr/webpack": "^8.1.0",
     "@tailwindcss/cli": "^4.1.4",
     "@tailwindcss/postcss": "^4.1.4",
@@ -17,11 +18,12 @@
     "framer-motion": "^11.3.21",
     "lucide-react": "^0.488.0",
     "motion": "^12.7.4",
-    "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.175.0"
   },
   "devDependencies": {
     "@types/node": "^20",
