@@ -63,13 +63,17 @@ export const Project = () => {
         />
 
         <div className="flex flex-col mt-10 md:mt-20 gap-20 ">
-          {portfolioProjects.map((project) => (
-            <CardSpotlight key={project.title}>
+          {portfolioProjects.map((project, index) => (
+            <CardSpotlight
+              key={project.title}
+              className={`sticky top-20 `}
+              style={{ top: `calc(64px + ${index * 30}px)` }}
+            >
               <div
                 className="bg-transparent rounded-6xl relative z-0 overflow-hidden 
                   after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 
                   after:outline-offset-5 after:rounded-6xl px-8 pt-8 md:pt-12 md:px-10 
-                  lg:pt-16  after:pointer-events-none"
+                  lg:pt-16  after:pointer-events-none "
               >
                 <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                   <div className="lg:pb-16">
