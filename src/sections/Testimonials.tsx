@@ -99,7 +99,7 @@ export const TestimonialsSection = () => {
             </AnimatePresence>
 
             {/* Testimonial Card */}
-            <Card className="relative max-w-md shadow-none bg-gray-950 border-0 z-20">
+            <Card className="relative max-w-md shadow-none bg-[#151515] border-0 z-20">
               <CardHeader>
                 <Lens>
                   <img
