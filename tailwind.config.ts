@@ -8,6 +8,13 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    { pattern: /\[--duration:.+\]/ },
+    { pattern: /animate-marquee/ },
+    { pattern: /animate-marquee-vertical/ },
+    { pattern: /\[animation-direction:reverse\]/ },
+    { pattern: /group-hover:\[animation-play-state:paused\]/ },
+  ],
   theme: {
   	screens: {
   		sm: '375px',
