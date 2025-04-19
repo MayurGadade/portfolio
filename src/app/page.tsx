@@ -10,8 +10,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Project />
-      <TestimonialsSection />
       <MarqueeSection />
+      <TestimonialsSection />
       <SmoothCursor />
     </div>
   );
