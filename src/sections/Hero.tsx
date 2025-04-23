@@ -38,19 +38,23 @@ export const Hero = () => {
 
             {/* Buttons */}
             <div className="flex items-center flex-col md:flex-row justify-center mt-8 gap-4">
-              <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-                <span className="font-semibold">Explore My Work</span>
-                <ArrowDown className="size-4 fill-white" />
-              </button>
-              <button
-                onClick={() => {
-                  console.log("clicked");
-                }}
-                className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl  bg-white text-gray-900"
-              >
-                <span>👋🏻</span>
-                <span className="font-semibold">Let&apos;s Connect</span>
-              </button>
+              <a href="#projects">
+                <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+                  <span className="font-semibold">Explore My Work</span>
+                  <ArrowDown className="size-4 fill-white" />
+                </button>
+              </a>
+              <a href="#">
+                <button
+                  onClick={() => {
+                    console.log("clicked");
+                  }}
+                  className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl  bg-white text-gray-900"
+                >
+                  <span>👋🏻</span>
+                  <span className="font-semibold">Let&apos;s Connect</span>
+                </button>
+              </a>
             </div>
           </div>
         </div>

@@ -54,7 +54,7 @@ export const Project = () => {
   ];
 
   return (
-    <section className="pb-16 lg:py-24">
+    <section className="pb-16 lg:py-24" id="projects">
       <div className="container mx-auto px-4">
         <SeactionHeader
           subtitle="Real-world projects"

@@ -3,23 +3,77 @@ import { Marquee } from "@/components/magicui/marquee";
 import { SeactionHeader } from "@/components/SectionHeader";
 import { FileJson } from "lucide-react";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
+import Css from "@/assets/icons/css3.svg";
+import Github from "@/assets/icons/github.svg";
+import React from "@/assets/icons/react.svg";
+import Html from "@/assets/icons/html5.svg";
+import Js from "@/assets/icons/square-js.svg";
+import Aws from "@/assets/icons/aws-svgrepo-com.svg";
+import Gsap from "@/assets/icons/greensock-svgrepo-com.svg";
+import Mongodb from "@/assets/icons/mongodb-svgrepo-com.svg";
+import Nextjs from "@/assets/icons/nextjs-icon-svgrepo-com.svg";
+import Nodejs from "@/assets/icons/node-js-svgrepo-com.svg";
+import Postgres from "@/assets/icons/postgresql-logo-svgrepo-com.svg";
+import Postman from "@/assets/icons/postman-icon-svgrepo-com.svg";
+import Tailwind from "@/assets/icons/tailwind-css-svgrepo-com.svg";
+import Typescript from "@/assets/icons/typescript-svgrepo-com.svg";
 
 const tech = [
   {
+    name: "Css",
+    icon: <Css className="size-10 text-black" />,
+  },
+  {
+    name: "Github",
+    icon: <Github className="size-10 text-black" />,
+  },
+  {
     name: "React",
-    icon: <FileJson className="size-10 text-black" />,
+    icon: <React className="size-10 text-black" />,
   },
   {
-    name: "Next.js",
-    icon: <FileJson className="size-10 text-black" />,
+    name: "Html",
+    icon: <Html className="size-10 text-black" />,
   },
   {
-    name: "MongoDB",
-    icon: <FileJson className="size-10 text-black" />,
+    name: "JavaScript",
+    icon: <Js className="size-10 text-black" />,
   },
   {
-    name: "Tailwind CSS",
-    icon: <FileJson className="size-10 text-black" />,
+    name: "Aws",
+    icon: <Aws className="size-10 text-black" />,
+  },
+  {
+    name: "Gsap",
+    icon: <Gsap className="size-10 text-black" />,
+  },
+  {
+    name: "Mongodb",
+    icon: <Mongodb className="size-10 text-black" />,
+  },
+  {
+    name: "NextJs",
+    icon: <Nextjs className="size-10 text-black" />,
+  },
+  {
+    name: "Nodejs",
+    icon: <Nodejs className="size-10 text-black" />,
+  },
+  {
+    name: "Postgres",
+    icon: <Postgres className="size-10 text-black" />,
+  },
+  {
+    name: "Postman",
+    icon: <Postman className="size-10 text-black" />,
+  },
+  {
+    name: "Tailwind",
+    icon: <Tailwind className="size-10 text-black" />,
+  },
+  {
+    name: "Typescript",
+    icon: <Typescript className="size-10 text-black" />,
   },
 ];
 
@@ -53,7 +107,7 @@ const ReviewCard = ({
 
 export function MarqueeSection() {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="flex flex-col overflow-hidden" id="marquee">
       <ContainerScroll
         titleComponent={
           <>
