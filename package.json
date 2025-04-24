@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "@radix-ui/react-label": "^2.1.4",
     "@radix-ui/react-slot": "^1.2.0",
+    "@react-email/components": "^0.0.36",
     "@react-three/fiber": "9.0.0-alpha.8",
     "@svgr/webpack": "^8.1.0",
     "@tailwindcss/cli": "^4.1.4",
     "@tailwindcss/postcss": "^4.1.4",
+    "axios": "^1.8.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
@@ -21,15 +25,19 @@
     "lucide-react": "^0.488.0",
     "motion": "^12.7.4",
     "next": "15.3.0",
+    "nodemailer": "^6.10.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-hook-form": "^7.56.1",
     "react-tweet": "^3.2.2",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
-    "three": "^0.175.0"
+    "three": "^0.175.0",
+    "zod": "^3.24.3"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.17",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/three": "^0.175.0",
