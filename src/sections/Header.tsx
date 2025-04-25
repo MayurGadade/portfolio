@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <div className="sticky top-3 z-50 flex items-center justify-center px-4">
       {/* Centered nav */}
-      <nav className="flex gap-1 p-0.5 border rounded-full border-white/15 bg-white/10 backdrop-blur">
+      <nav className="flex gap-1 p-0.5 border rounded-full border-black/15 dark:border-white/15 bg-black/10 dark:bg-white/10 backdrop-blur">
         <a href="#" className="nav-item">
           Home
         </a>

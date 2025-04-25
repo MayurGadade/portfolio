@@ -86,11 +86,11 @@ export const Project = () => {
                     <h3 className="font-serif text-2xl md:text-4xl mt-2 md:mt-5">
                       {project.title}
                     </h3>
-                    <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
+                    <hr className="border-t-2 dark:border-white/5 border-black/5 mt-4 md:mt-5" />
                     <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                       {project.features.map((feature) => (
                         <li
-                          className="flex gap-2 text-sm md:text-base text-white/50"
+                          className="flex gap-2 text-sm md:text-base dark:text-white/50 text-black/50"
                           key={feature.title}
                         >
                           <span>
@@ -100,7 +100,7 @@ export const Project = () => {
                         </li>
                       ))}
                     </ul>
-                    <button className="mt-6 md:mt-7 px-5 md:px-6 py-3 bg-white text-black font-normal rounded-lg flex items-center gap-2 hover:opacity-90 transition">
+                    <button className="mt-6 md:mt-7 px-5 md:px-6 py-3 dark:bg-white bg-black dark:text-black text-white font-normal rounded-lg flex items-center gap-2 hover:opacity-90 transition">
                       Live Demo
                       <motion.div
                         animate={{ x: [0, 5, 0] }}
