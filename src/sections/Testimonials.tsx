@@ -86,7 +86,7 @@ export const TestimonialsSection = () => {
             <AnimatePresence>
               {hoveredIndex === idx && (
                 <motion.span
-                  className="absolute inset-0 h-full w-full bg-gray-800 dark:bg-slate-800/[0.8] rounded-3xl"
+                  className="absolute inset-0 h-full w-full bg-gray-200 dark:bg-slate-800/[0.8] rounded-3xl"
                   layoutId="hoverBackground"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1, transition: { duration: 0.2 } }}
@@ -99,7 +99,10 @@ export const TestimonialsSection = () => {
             </AnimatePresence>
 
             {/* Testimonial Card */}
-            <Card className="relative max-w-md shadow-none bg-[#151515] border-0 z-20">
+            <Card
+              className="relative max-w-md shadow-none 
+            bg-[#f5f5f5] dark:bg-[#151515] border-0 z-20"
+            >
               <CardHeader>
                 <Lens>
                   <img
@@ -112,7 +115,7 @@ export const TestimonialsSection = () => {
                 </Lens>
               </CardHeader>
               <CardContent>
-                <CardTitle className="text-2xl text-white">
+                <CardTitle className="text-2xl dark:text-white">
                   {testimonial.name}
                 </CardTitle>
                 <p className="text-sm text-slate-400">{testimonial.position}</p>

@@ -116,7 +116,7 @@ export function MarqueeSection() {
                 My playground
               </p>
               <br />
-              <span className="text-4xl font-serif md:text-[6rem] font-bold mt-1 leading-none">
+              <span className="text-4xl font-serif md:text-[6rem] font-bold mt-1 leading-none text-black dark:text-white">
                 Master Skills
               </span>
             </h1>

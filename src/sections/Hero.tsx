@@ -17,7 +17,7 @@ export const Hero = () => {
               alt="hero image"
               className="size-[100px] lg:size-[150px] mb-5"
             />
-            <div className="inline-flex bg-gray-950 border-gray-800  rounded-lg px-4 py-1.5 items-center  gap-4">
+            <div className="inline-flex bg-gray-200 dark:bg-gray-950 dark:border-gray-800  rounded-lg px-4 py-1.5 items-center  gap-4">
               <div className="size-2.5 lg:size-3 rounded-full bg-green-500"></div>
               <div className="text-sm lg:text-base font-medium">
                 Ready for a new project
@@ -39,9 +39,9 @@ export const Hero = () => {
             {/* Buttons */}
             <div className="flex items-center flex-col md:flex-row justify-center mt-8 gap-4">
               <a href="#projects">
-                <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+                <button className="inline-flex items-center gap-2 border dark:border-white/15 px-6 h-12 rounded-xl">
                   <span className="font-semibold">Explore My Work</span>
-                  <ArrowDown className="size-4 fill-white" />
+                  <ArrowDown className="size-4 fill-forground" />
                 </button>
               </a>
               <a href="#">
@@ -49,7 +49,7 @@ export const Hero = () => {
                   onClick={() => {
                     console.log("clicked");
                   }}
-                  className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl  bg-white text-gray-900"
+                  className="inline-flex items-center gap-2 border border-black/15 dark:border-white/15 px-6 h-12 rounded-xl bg-black text-white  dark:bg-white dark:text-gray-900"
                 >
                   <span>👋🏻</span>
                   <span className="font-semibold">Let&apos;s Connect</span>
